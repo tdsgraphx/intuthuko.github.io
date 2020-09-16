@@ -1,0 +1,417 @@
+/* ============== UNISVERSAL STYLES =================== */
+body {
+    background-image:url("../img/bg.png");
+    background-size:100% 1000px;
+}
+
+body {
+    background-repeat:no-repeat;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body, #body-container {
+    width:100%;
+    height:auto;
+    margin:0;
+}
+
+img {
+    border:0;
+}
+
+h1, h2, h3, h4, h5, h6, a, i {
+    color:#fff;
+}
+
+a, button a  {
+    text-decoration:none;
+}
+
+p, li, p a, li a {
+    color: slategrey;
+}
+
+li {
+    list-style:none;
+    text-align:left;
+    padding:6px;
+}
+
+.sidenav, .nav-links img, .home-links img {
+    display:none;
+}
+
+/*--------------------------------------------------------------
+# Everything Else Inside The Home  Container
+--------------------------------------------------------------*/
+.home-container {
+    position:relative;
+    border:0; 
+    width:90%;
+    height:auto;
+    transition:0.9s ease;
+    top:0;
+}
+
+.home-container .company-name {
+    font-size:28px;
+    padding:8px;
+    margin:30px;
+}
+
+.home-container .company-name, #home-content .p  {
+    padding:8px;
+}
+
+.home-container, #home-content h1, #welcome-mssg {
+    margin:30px auto;
+}
+
+.home-links {
+    float:right; 
+    width:20px;
+    transition:0.6s;
+}
+
+.home-links i {
+    font-size:28px;
+    background-color:rgb(224, 73, 3);
+    border-radius:50%;
+    width:26px;
+    padding:10px;
+    margin:10px;
+}
+
+.home-links i:hover {
+    color:rgb(224, 73, 3);
+    background-color:#fff;
+}
+
+#home-content .p {
+    font-size:20px;
+}
+
+#home-content .p, .my-boxes #intro-text {
+    float:left;
+}
+
+.nav-links a:hover, .nav-links i:hover, .my-boxes .heading-text p, .home-container .company-name {
+    color:rgb(224, 73, 3);
+}
+
+.my-boxes .heading-text {
+    font-size:20px;
+    width:50%;
+}
+
+#home-content h1 { 
+    font-size:48px;
+    font-weight:700;
+    padding-top:30px;
+    transition:0.9s;
+}
+
+#welcome-mssg {
+    font-size:20px;
+    text-align:left;
+}
+
+#home-content .p {
+    width:69%;
+}
+
+#home-content .p, .my-boxes, .my-boxes #p, #home-content .my-box img  {
+    position: relative
+}
+
+.my-boxes,.my-boxes .heading-text, .my-boxes #intro-text {
+    width:100%;
+}
+
+#home-content .my-box {
+    width:25%;
+    float:left;
+    text-align: center;
+    height:auto;
+}
+
+#home-content .my-box img {
+    width:100%;
+    height:180px;
+}
+
+#content-container .nav-links {
+    background-image: url("../img/bg.png");
+    height:35px;
+    width:100%;
+    padding-top:15px;
+    padding-bottom:15px;
+    position:fixed;
+    top:0;
+}
+
+.nav-links, .nav-links .link {
+    color:#fff;
+}
+
+.nav-links .link {
+    float:right;
+    margin-right:20px;
+    font-size:20px;
+}
+
+.nav-links .company-name {
+    float:left;
+    margin-left:20px;
+    font-size:20px;
+}
+
+.icon-heading {
+    width:40%;
+}
+
+.icon-heading, .content-p {
+    float:left;
+    margin:20px;   
+}
+
+.content-p {
+    width:46%;
+}
+
+.content-p img {
+    width:20%;
+    height:80px;
+    float:left;
+    margin:4px;
+}
+
+.content-p b {
+    font-size:20px;
+}
+
+.icon-heading h1 {
+    color:#000;
+    font-size:50px;
+    font-weight:700;
+}
+
+.icon-heading i {
+    color:#000;
+    font-size:100px;
+    font-weight:700;
+}
+
+#about, #services, #contacts, #projects, #content-container, footer {
+    width:100%;
+}
+
+#about, #services, #contacts, #projects, #content-container {
+    height:auto;
+    background-color:#fff;
+    float:left;
+    display:none;
+}
+
+#about, #services, #contacts, #projects {
+    padding-top:70px;
+    padding-bottom:40px;
+}
+
+#contacts form input {
+    width:400px;
+    height:40px;
+    margin:20px;
+    color:rgb(224, 73, 3);
+    border:2px solid rgb(224, 73, 3);
+    border-left:none;
+    border-right:none;
+    border-top:none;
+}
+
+#contacts form input, #contacts form textarea {
+    font-size:16px;
+    padding:20px;
+}
+
+#contacts form textarea {
+    border:2px solid rgb(224, 73, 3);
+    color:rgb(224, 73, 3);
+    width:400px;
+    height:200px;
+}
+
+#contacts form button {
+    background-color: rgb(224, 73, 3);
+    border:2px solid rgb(224, 73, 3);
+    color:#fff;
+    border-radius:4px;
+    width:200px;
+    height:50px;
+    margin:10px;
+}
+
+#contacts form button:hover {
+    background-color: rgb(224, 3, 3);
+    border:2px solid rgb(224, 3, 3);
+    color:#fff;
+}
+
+#contacts .icon-heading i {
+    color:rgb(224, 73, 3);
+    font-size:60px;
+}
+
+#contacts .icon-heading p {
+    font-size:20px;
+}
+
+#contacts .icon-heading p a {
+    margin:10px;
+}
+
+footer {
+    color:#fff;
+    float:left;
+    background-color:rgb(224, 73, 3);
+    text-align:center;
+    
+    width:100%;
+}
+
+footer p, footer a {
+    color:#fff;
+    font-weight: 600;
+    font-size:16px;
+}
+
+footer a:visited {
+    color:#fff;
+}
+footer a:hover {
+    color:rgb(250, 1, 1);
+}
+
+footer .links {
+    padding-top:60px;
+}
+
+/* ============== SMALL DEVICES =================== */
+@media screen and (max-width:640px) {
+
+        body {
+            background-image:url("../img/bg_mobile.png");
+            background-size:100% 1000px;
+            background-clip: content-box;
+        }
+
+        .sidenav, .nav-links img, .home-links img {
+            display:block;
+        }
+        
+        .home-links a, .nav-links .link {
+            display:none;
+        }
+
+        .nav-links img {
+            margin-left:20px;
+        }
+
+        .nav-links img, .home-links {
+            float:left;
+        }
+
+        .nav-links img, .home-links img {
+            width:30px;
+        }
+
+        .home-links {
+            margin:20px;
+        }
+
+        .home-links, .nav-links .company-name, .home-container .company-name, #home-content .p, .my-boxes #p, #home-content .my-box, .icon-heading, .content-p, .heading-text p, #welcome-mssg, #home-content h1 {
+            text-align:center;
+        }
+
+        .home-links img {
+            float:right;
+        }
+        
+        .nav-links .company-name {
+            float:right;
+            margin-right:10px;
+        }
+
+        .home-container {
+            height:auto;
+        }
+
+        #home-content .my-box, #home-content .p, .my-boxes #p, .home-container {
+            margin:0;
+        }
+
+        .home-container, .progress, #home-content .p, .my-boxes #p, #home-content .my-box {
+            width:100%;
+        }
+
+        .home-container .company-name {
+            padding-top:30px;
+        }
+
+        .my-boxes {
+            left:0;
+            width:90%;
+            margin:4px auto;
+            position: relative;
+            top:3%;
+        }
+
+        /* .my-boxes .my-box img {
+            height:390px;
+        }
+          */
+
+        #home-content .my-box {
+            height:180px;
+            padding-top:10px;
+        }
+
+        .icon-heading, .content-p {
+            width:80%;
+        }
+
+        #home-content .my-box, #home-content .p, .my-boxes #p  {
+            float:left;
+        }
+        
+        .icon-heading, .content-p {
+            float:none;
+            margin:30px auto;  
+        }
+
+        .content-p img {
+            width:70%;
+            height:200px;
+            float:none;
+            margin:6px auto;
+        }
+   
+}
+
+/* ======================================================= */
+
+/* ============== LARGE DEVICES =================== */
+@media screen and (min-width:640px) {
+
+    .my-boxes .p {
+        left:14%;
+    }
+
+    .my-boxes .my-box img {
+        width:40%;
+        height:60px;
+        margin:10px auto;
+        left:115%;
+    }
+     
+}
