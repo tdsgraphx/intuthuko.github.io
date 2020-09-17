@@ -116,6 +116,10 @@ li {
     text-align:left;
 }
 
+#welcome-mssg img {
+    margin-top:20px;
+}
+
 #home-content .p {
     width:69%;
 }
